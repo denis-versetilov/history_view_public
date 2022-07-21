@@ -1,12 +1,70 @@
 {
     "modelName": "New Model",
-    "collections": [],
-    "buckets": [],
+    "collections": [
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "c360d750-092f-11ed-bed6-9584b7d081cf",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c105f760-092f-11ed-bed6-9584b7d081cf"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "c1013c70-092f-11ed-bed6-9584b7d081cf",
+            "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "c1013c70-092f-11ed-bed6-9584b7d081cf"
+            ],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+        }
+    ],
     "views": [],
     "relationships": [],
     "users": [],
     "diagramViews": [],
-    "idToNameHashTable": {},
+    "idToNameHashTable": {
+        "c01ca8d0-092f-11ed-bed6-9584b7d081cf": "New_Database",
+        "c1013c70-092f-11ed-bed6-9584b7d081cf": "New Collection",
+        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Field"
+    },
     "definitions": {
         "type": "definitions",
         "properties": [],
@@ -30,7 +88,7 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-21T19:59:28.029Z",
+    "lastModifTS": "2022-07-21T20:00:27.355Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -43,8 +101,23 @@
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [],
-                "buckets": [],
+                "erd": [
+                    {
+                        "GUID": "c1013c70-092f-11ed-bed6-9584b7d081cf",
+                        "x": 123,
+                        "y": 203,
+                        "width": 206,
+                        "height": 51,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 107,
+                        "y": 158,
+                        "GUID": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+                    }
+                ],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
