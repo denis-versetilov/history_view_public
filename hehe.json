@@ -1,67 +1,12 @@
 {
     "modelName": "New Model",
-    "collections": [
-        {
-            "collectionName": "hehe",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "hehe",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "93ec38b0-069c-11ed-96ab-334f724f7f4d",
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "91e08a30-069c-11ed-96ab-334f724f7f4d"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "91dc1d60-069c-11ed-96ab-334f724f7f4d",
-            "bucketId": "90a264e0-069c-11ed-96ab-334f724f7f4d"
-        }
-    ],
-    "buckets": [
-        {
-            "name": "New_Database",
-            "type": "bucket",
-            "collectionIds": [
-                "91dc1d60-069c-11ed-96ab-334f724f7f4d"
-            ],
-            "backgroundColor": {
-                "r": 216,
-                "g": 0,
-                "b": 115,
-                "a": 1
-            },
-            "show": true,
-            "isActivated": true,
-            "GUID": "90a264e0-069c-11ed-96ab-334f724f7f4d"
-        }
-    ],
+    "collections": [],
+    "buckets": [],
     "views": [],
     "relationships": [],
     "users": [],
     "diagramViews": [],
-    "idToNameHashTable": {
-        "90a264e0-069c-11ed-96ab-334f724f7f4d": "New_Database",
-        "91dc1d60-069c-11ed-96ab-334f724f7f4d": "hehe",
-        "93ec38b0-069c-11ed-96ab-334f724f7f4d": "hehe"
-    },
+    "idToNameHashTable": {},
     "definitions": {
         "type": "definitions",
         "properties": [],
@@ -85,35 +30,21 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-18T13:21:51.340Z",
+    "lastModifTS": "2022-07-21T19:59:28.029Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.3"
+        "version": "6.2.4"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [
-                    {
-                        "GUID": "91dc1d60-069c-11ed-96ab-334f724f7f4d",
-                        "x": 404,
-                        "y": 386,
-                        "width": 151,
-                        "height": 51,
-                        "color": {}
-                    }
-                ],
-                "buckets": [
-                    {
-                        "x": 369,
-                        "y": 334,
-                        "GUID": "90a264e0-069c-11ed-96ab-334f724f7f4d"
-                    }
-                ],
+                "erd": [],
+                "buckets": [],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
