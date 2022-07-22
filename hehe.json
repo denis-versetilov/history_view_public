@@ -6,15 +6,12 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "New Field",
+                    "name": "New Field2",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
                     "GUID": "c360d750-092f-11ed-bed6-9584b7d081cf",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -63,7 +60,7 @@
     "idToNameHashTable": {
         "c01ca8d0-092f-11ed-bed6-9584b7d081cf": "New_Database",
         "c1013c70-092f-11ed-bed6-9584b7d081cf": "New Collection",
-        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Field"
+        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Field2"
     },
     "definitions": {
         "type": "definitions",
@@ -88,7 +85,7 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-21T20:00:27.355Z",
+    "lastModifTS": "2022-07-22T07:41:12.602Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
