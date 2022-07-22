@@ -6,7 +6,7 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "New Field2",
+                    "name": "New Fiel1",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
@@ -40,6 +40,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
+                "c1013c70-092f-11ed-bed6-9584b7d081cf",
                 "c1013c70-092f-11ed-bed6-9584b7d081cf"
             ],
             "backgroundColor": {
@@ -60,7 +61,7 @@
     "idToNameHashTable": {
         "c01ca8d0-092f-11ed-bed6-9584b7d081cf": "New_Database",
         "c1013c70-092f-11ed-bed6-9584b7d081cf": "New Collection",
-        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Field2"
+        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Fiel1"
     },
     "definitions": {
         "type": "definitions",
@@ -85,7 +86,7 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-22T07:37:25.651Z",
+    "lastModifTS": "2022-07-22T07:39:06.640Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -115,25 +116,15 @@
                         "GUID": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                }
             },
             "collectionLevel": {},
             "changed": false
