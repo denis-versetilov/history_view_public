@@ -40,7 +40,10 @@
                 "collation": "null"
             },
             "GUID": "9076d4f0-0684-11ed-96ab-334f724f7f4d",
-            "bucketId": "8fcb79c0-0684-11ed-96ab-334f724f7f4d"
+            "bucketId": "8fcb79c0-0684-11ed-96ab-334f724f7f4d",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "bColl",
@@ -85,7 +88,10 @@
                 "collation": "null"
             },
             "GUID": "9beb9230-0684-11ed-96ab-334f724f7f4d",
-            "bucketId": "8fcb79c0-0684-11ed-96ab-334f724f7f4d"
+            "bucketId": "8fcb79c0-0684-11ed-96ab-334f724f7f4d",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -104,7 +110,24 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "8fcb79c0-0684-11ed-96ab-334f724f7f4d"
+            "GUID": "8fcb79c0-0684-11ed-96ab-334f724f7f4d",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "name": "New_Database(1)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "4b4cd697-95d6-4271-baf8-b4cc84f5d146"
         }
     ],
     "views": [],
@@ -118,7 +141,8 @@
         "98afc820-0684-11ed-96ab-334f724f7f4d": "b",
         "9bec7c90-0684-11ed-96ab-334f724f7f4d": "a",
         "9bec7c91-0684-11ed-96ab-334f724f7f4d": "b",
-        "9beb9230-0684-11ed-96ab-334f724f7f4d": "bColl"
+        "9beb9230-0684-11ed-96ab-334f724f7f4d": "bColl",
+        "4b4cd697-95d6-4271-baf8-b4cc84f5d146": "New_Database(1)"
     },
     "definitions": {
         "type": "definitions",
@@ -143,14 +167,17 @@
     "creationTS": "2022-07-18T10:29:51.514Z",
     "GUID": "8e890eb0-0684-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-18T10:30:20.481Z",
+    "lastModifTS": "2023-09-28T11:13:46.766Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.3"
+        "version": "6.11.0"
+    },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
     },
     "settings": {
         "centralPane": {
@@ -158,26 +185,37 @@
                 "erd": [
                     {
                         "GUID": "9076d4f0-0684-11ed-96ab-334f724f7f4d",
-                        "x": 347,
-                        "y": 319,
+                        "x": 1040,
+                        "y": 1040,
                         "width": 150,
                         "height": 69,
                         "color": {}
                     },
                     {
                         "GUID": "9beb9230-0684-11ed-96ab-334f724f7f4d",
-                        "x": 404,
-                        "y": 444,
+                        "x": 1097,
+                        "y": 1165,
                         "width": 151,
                         "height": 69,
                         "color": {}
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
-                        "x": 307,
-                        "y": 279,
+                        "x": 1000,
+                        "y": 1000,
                         "GUID": "8fcb79c0-0684-11ed-96ab-334f724f7f4d"
+                    },
+                    {
+                        "x": 1113,
+                        "y": 1267,
+                        "GUID": "4b4cd697-95d6-4271-baf8-b4cc84f5d146"
                     }
                 ],
                 "collapsedNodes": [],
@@ -198,7 +236,19 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": []
+                "options": [
+                    {
+                        "GUID": "9076d4f0-0684-11ed-96ab-334f724f7f4d",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "9beb9230-0684-11ed-96ab-334f724f7f4d",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
