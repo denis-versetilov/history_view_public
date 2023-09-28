@@ -111,6 +111,54 @@
             },
             "GUID": "3dc95f24-33aa-4b89-af7c-3004568b3c41",
             "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+        },
+        {
+            "collectionName": "New Collection(4)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "55edac84-b7d5-4923-9cd2-b31da1982111"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "a606d8fc-5086-4ff8-a485-b36d2ed0ce29",
+            "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+        },
+        {
+            "collectionName": "New Collection(5)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f85d3e61-1b75-49f6-84c9-5186dcf2c00e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "5d5b85e6-c565-47af-a1d6-f9ccfd1815be",
+            "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
         }
     ],
     "buckets": [
@@ -121,7 +169,9 @@
                 "c1013c70-092f-11ed-bed6-9584b7d081cf",
                 "df19c71a-44cd-424d-a7e4-a762b371b5a2",
                 "a889ce3b-8590-4d16-a794-d45ada4a3e1e",
-                "3dc95f24-33aa-4b89-af7c-3004568b3c41"
+                "3dc95f24-33aa-4b89-af7c-3004568b3c41",
+                "a606d8fc-5086-4ff8-a485-b36d2ed0ce29",
+                "5d5b85e6-c565-47af-a1d6-f9ccfd1815be"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -147,7 +197,9 @@
         "c360d750-092f-11ed-bed6-9584b7d081cf": "New Field",
         "df19c71a-44cd-424d-a7e4-a762b371b5a2": "New Collection(1)",
         "a889ce3b-8590-4d16-a794-d45ada4a3e1e": "New Collection(2)",
-        "3dc95f24-33aa-4b89-af7c-3004568b3c41": "New Collection(3)"
+        "3dc95f24-33aa-4b89-af7c-3004568b3c41": "New Collection(3)",
+        "a606d8fc-5086-4ff8-a485-b36d2ed0ce29": "New Collection(4)",
+        "5d5b85e6-c565-47af-a1d6-f9ccfd1815be": "New Collection(5)"
     },
     "definitions": {
         "type": "definitions",
@@ -172,7 +224,7 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-28T10:15:10.711Z",
+    "lastModifTS": "2023-09-28T11:04:36.534Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -216,6 +268,22 @@
                         "GUID": "3dc95f24-33aa-4b89-af7c-3004568b3c41",
                         "x": 1109,
                         "y": 1298,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "a606d8fc-5086-4ff8-a485-b36d2ed0ce29",
+                        "x": 1046,
+                        "y": 1320,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "5d5b85e6-c565-47af-a1d6-f9ccfd1815be",
+                        "x": 1042,
+                        "y": 1431,
                         "width": 240,
                         "height": 100,
                         "color": {}
