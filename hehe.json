@@ -87,6 +87,30 @@
             },
             "GUID": "a889ce3b-8590-4d16-a794-d45ada4a3e1e",
             "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+        },
+        {
+            "collectionName": "New Collection(3)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "fb5aada3-28b6-40a5-babf-a8e772c15c7d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "3dc95f24-33aa-4b89-af7c-3004568b3c41",
+            "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
         }
     ],
     "buckets": [
@@ -96,7 +120,8 @@
             "collectionIds": [
                 "c1013c70-092f-11ed-bed6-9584b7d081cf",
                 "df19c71a-44cd-424d-a7e4-a762b371b5a2",
-                "a889ce3b-8590-4d16-a794-d45ada4a3e1e"
+                "a889ce3b-8590-4d16-a794-d45ada4a3e1e",
+                "3dc95f24-33aa-4b89-af7c-3004568b3c41"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -121,7 +146,8 @@
         "c1013c70-092f-11ed-bed6-9584b7d081cf": "New Collection",
         "c360d750-092f-11ed-bed6-9584b7d081cf": "New Field",
         "df19c71a-44cd-424d-a7e4-a762b371b5a2": "New Collection(1)",
-        "a889ce3b-8590-4d16-a794-d45ada4a3e1e": "New Collection(2)"
+        "a889ce3b-8590-4d16-a794-d45ada4a3e1e": "New Collection(2)",
+        "3dc95f24-33aa-4b89-af7c-3004568b3c41": "New Collection(3)"
     },
     "definitions": {
         "type": "definitions",
@@ -146,7 +172,7 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-28T09:41:30.816Z",
+    "lastModifTS": "2023-09-28T10:15:10.711Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -182,6 +208,14 @@
                         "GUID": "a889ce3b-8590-4d16-a794-d45ada4a3e1e",
                         "x": 1030,
                         "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "3dc95f24-33aa-4b89-af7c-3004568b3c41",
+                        "x": 1109,
+                        "y": 1298,
                         "width": 240,
                         "height": 100,
                         "color": {}
